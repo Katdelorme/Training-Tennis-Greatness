@@ -7,44 +7,14 @@
   <section>
 
   <section>
-      {% assign loopindex = 0 %}
-      {% for post in site.posts %}
-        {% assign loopindex = loopindex | plus: 1 %}
-          {% assign rowfinder = loopindex | modulo: 3 %}
-            {% if rowfinder == 1 %}
-              <div class="postholder">
-                <div class="post-item">
-                  <div class="post-caption">
-                		<p>
-                      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </p>
-                    <time>{{ post.date | date: "%B %-d, %Y" }}</time>
-                  </div>
-                </div>
-            {% elsif rowfinder == 0 %}
-                <div class="post-item">
-                  <div class="post-caption">
-                		<p>
-                      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </p>
-                    <time>{{ post.date | date: "%B %-d, %Y" }}</time>
-                  </div>
-                </div>
-              </div>
-            {% else %}
-              <div class="post-item">
-                <div class="post-caption">
-              		<p>
-                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                  </p>
-                  <time>{{ post.date | date: "%B %-d, %Y" }}</time>
-                </div>
-              </div>
-            {% endif %}
+    <div class="row postholder">
+      {% for post in site.posts offset: 0 limit: 4 %}
+      <div class="col-3 post-item">
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <time>{{ post.date | date: "%B %-d, %Y" }}</time>
+      </div>
       {% endfor %}
-      {% if rowfinder != 0 %}
-        </div>
-      {% endif %}
+    </div>
   </section>
 
   {% include footer.html %}
