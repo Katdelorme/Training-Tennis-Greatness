@@ -1,2 +1,2 @@
 # Training-Tennis-Greatness
-A Jekyll and Bootsrap site build. Created for a Tennis Program in Miami.
+A Jekyll and Bootstrap site build. Created for a Tennis Program in Miami.
