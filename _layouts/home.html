@@ -1,5 +1,10 @@
 <!DOCTYPE html>
+<html>
   {% include header.html %}
+
+  <section>
+    This is  a section
+  <section>
 
   <section>
       {% assign loopindex = 0 %}
@@ -9,50 +14,29 @@
             {% if rowfinder == 1 %}
               <div class="postholder">
                 <div class="post-item">
-                  <div>
-                    <a href="{{ post.url | prepend: site.baseurl }}">
-                      <div class="postimg" style="background-image: url({{ post.banner}})"></div>
-                    </a>
-                  </div>
                   <div class="post-caption">
-                    <span>{{ post.categories | join: ' ' }}</span>
                 		<p>
                       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                     </p>
-                    <p>{{ post.shortblurb }}</p>
                     <time>{{ post.date | date: "%B %-d, %Y" }}</time>
                   </div>
                 </div>
             {% elsif rowfinder == 0 %}
                 <div class="post-item">
-                  <div>
-                    <a href="{{ post.url | prepend: site.baseurl }}">
-                      <div class="postimg" style="background-image: url({{ post.banner}})"></div>
-                    </a>
-                  </div>
                   <div class="post-caption">
-                    <span>{{ post.categories | join: ' ' }}</span>
                 		<p>
                       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                     </p>
-                    <p>{{ post.shortblurb }}</p>
                     <time>{{ post.date | date: "%B %-d, %Y" }}</time>
                   </div>
                 </div>
               </div>
             {% else %}
               <div class="post-item">
-                <div>
-                  <a href="{{ post.url | prepend: site.baseurl }}">
-                    <div class="postimg" style="background-image: url({{ post.banner}})"></div>
-                  </a>
-                </div>
                 <div class="post-caption">
-                  <span>{{ post.categories | join: ' ' }}</span>
               		<p>
                     <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                   </p>
-                  <p>{{ post.shortblurb }}</p>
                   <time>{{ post.date | date: "%B %-d, %Y" }}</time>
                 </div>
               </div>
