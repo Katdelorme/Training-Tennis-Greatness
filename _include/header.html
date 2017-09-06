@@ -1,65 +1,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title}}{% endif %} - Burd Tennis</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title}}{% endif %} - Katherine Delorme</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta name="description" content=""/>
 	<meta name="keywords" content="">
 	<meta name="author" content="Katherine Delorme">
-	<meta name="application-name" content="Training Tennis Greatness"/>
+	<meta name="application-name" content="Let's Talk Design - A Katdelorme Blog"/>
 	<!--Dublin Core-->
-	<meta name="DC.Title" content="Title - Burd Tennis" />
+	<meta name="DC.Title" content="Let's Talk Design - A Katdelorme Blog" />
 	<meta name="DC.Creator" content="Katherine Delorme" />
-	<meta name="DC.Subject" content="Tennis,Tennis training" />
+	<meta name="DC.Subject" content="Web Design, UI, Frontend Design, Experiences" />
 	<meta name="DC.Description" content="{{ page.shortblurb }}" />
-	<meta name="DC.Type" content="article" />
+	<meta name="DC.Type" content="Blog" />
 	<meta name="DC.Language" content="English" />
 	<!--Twitter Card: Summary-->
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="" />
+	<meta name="twitter:site" content="@Katdelorme" />
 	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title}}{% endif %}" />
 	<meta name="twitter:description" content="{{ page.shortblurb }}" />
 	<meta name="twitter:image" content="{{ page.twsocialmediaimg }}" />
 	<!--Facebook Open Graph-->
-	<meta property="og:url" content="http://LINK.com{{ page.url}}" />
+	<meta property="og:url" content="http://blog.katherinedelorme.com{{ page.url}}" />
 	<meta property="og:type" content="blog" />
-  <meta property="author" content="https://www.facebook.com/PAGE/" />
-  <meta property="article:author" content="https://www.facebook.com/PAGE/" />
+  <meta property="author" content="https://www.facebook.com/KatdelormeKatdesign/" />
+  <meta property="article:author" content="https://www.facebook.com/KatdelormeKatdesign/" />
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title}}{% endif %}" />
 	<meta property="og:description" content="{{ page.shortblurb }}" />
 	<meta property="og:image" content="{{ page.fbsocialmediaimg }}" />
 	<!--favicon-->
-	<link rel="icon" type="image/png" href="http://IMAGELINK.png" />
+	<link rel="icon" type="image/png" href="http://katherinedelorme.com/favicon/fav.png" />
 	<!--stylesheets-->
-  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-  <!-- site stylesheet -->
+  <link rel="stylesheet" href="http://katherinedelorme.com/css/styles2.css" type="text/css" />
   <link rel="stylesheet" type="text/css" href="{{"/css/styles.css" | prepend: site.baseurl }}">
   <!--<link rel="canonical" href="{{ page.url | replace:'index.html', '' | prepend: site.baseurl | prepend: site.url }}">-->
-  <link rel="canonical" href="http://LINK.com{{ page.url }}">
+  <link rel="canonical" href="http://blog.katherinedelorme.com{{ page.url }}">
   <!--fonts-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,700italic|Quicksand' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-md fixed-top">
-
-        <a class="navbar-brand logo" href="#">
-          <img src="assets/luxitaLogo.png" class="d-inline-block align-top" alt="LUXITA">
-        </a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <a class="nav-item nav-link" href="#">Home</a>
-          <a class="nav-item nav-link" href="#">Lessons</a>
-          <a class="nav-item nav-link" href="#">About</a>
-          <a class="nav-item nav-link" href="#">Events</a>
-          <a class="nav-item nav-link" href="#">Contact</a>
+	<header class="nav-collapse head">
+      <ul>
+        <div class="logo">
+  			     <li><a rel="canonical" href="http://blog.katherinedelorme.com">Let's Talk Design</a></li>
+  			</div>
+        <div class="nav">
+          <!--
+          {% for page in site.pages %} {% if page.title %}
+          <li rel="canonical"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %} {% endfor %}-->
+          <li><a rel="canonical" href="http://blog.katherinedelorme.com">Blog</a></li>
+          <li><a rel="canonical" href="http://katherinedelorme.com">Portfolio</a></li>
         </div>
-      </nav>
-    </header>
+      </ul>
+	</header>

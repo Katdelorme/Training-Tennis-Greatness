@@ -10,6 +10,9 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
 markdown: kramdown
 theme: minima
 gems:
