@@ -8,10 +8,11 @@
 
   <section>
     <div class="row postholder">
-      {% for post in site.posts offset: 0 limit: 4 %}
+      {% for post in site.posts reversed offset: 0 limit: 4 %}
       <div class="col-3 post-item">
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <time>{{ post.date | date: "%B %-d, %Y" }}</time>
+        <h6><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h6>
+        <time>{{ post.eventdate | date: "%B %-d, %Y" }}</time>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="learnmore">Learn More</a>
       </div>
       {% endfor %}
     </div>

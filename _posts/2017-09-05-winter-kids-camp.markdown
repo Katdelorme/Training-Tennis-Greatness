@@ -2,6 +2,7 @@
 layout: post
 title:  "Winter Kids Camp"
 date:   2017-09-05 09:34:31 -0400
+eventdate:   2017-12-16 09:34:31 -0400
 categories: jekyll update
 fbsocialmediaimg: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
 twsocialmediaimg: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg

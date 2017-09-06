@@ -2,6 +2,7 @@
 layout: post
 title:  "Hit to Win Fundraiser"
 date:   2017-09-05 09:33:31 -0400
+eventdate:   2017-10-13 09:33:31 -0400
 categories: jekyll update
 fbsocialmediaimg: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
 twsocialmediaimg: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg

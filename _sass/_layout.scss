@@ -2,7 +2,22 @@
 	padding: 4% 0;
 	.post-item{
 		a{
+			color: $secondary;
 			display: block;
+		}
+		time{
+			color: $secondary;
+			font-family: $font-style-secondary;
+			font-size: 1em;
+		}
+		.learnmore{
+			color: $secondary;
+			font-family: $font-style-secondary;
+			font-size: 1em;
+			text-decoration: underline;
+			&:hover{
+				color: $primary;
+			}
 		}
 	}
 }

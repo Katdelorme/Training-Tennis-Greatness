@@ -15,8 +15,12 @@ h4 {
 h5 {
 }
 h6 {
-  color:#000000;
-  font-size: 1.7em;
-  font-weight: 700;
-  margin-bottom: 1%;
+  color: $secondary;
+  font-family: $font-style-secondary;
+  font-size: 1.25em;
+  font-weight: 600;
+}
+p{
+  font-family: $font-style-secondary;
+  font-size: 1.25em;
 }

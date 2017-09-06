@@ -2,6 +2,7 @@
 layout: post
 title:  "Queen of the Court Tournament"
 date:   2017-09-05 09:31:31 -0400
+eventdate:   2017-06-18 09:31:31 -0400
 categories: jekyll update
 fbsocialmediaimg: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
 twsocialmediaimg: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
