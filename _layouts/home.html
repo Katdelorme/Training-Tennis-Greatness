@@ -2,14 +2,17 @@
 <html>
   {% include header.html %}
 
-  <section>
-    This is  a section
-  <section>
+  <section class="row homeTop">
+    <div>
+      <h1>Training Tennis<br/>Greatness</h1>
+      <a href="#" target="_blank" class="btnLink">Book A Lesson</a>
+    </div>
+  </section>
 
   <section>
     <div class="row postholder">
       {% for post in site.posts reversed offset: 0 limit: 4 %}
-      <div class="col-3 post-item">
+      <div class="col-md-3 col-12 post-item">
         <h6><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h6>
         <time>{{ post.eventdate | date: "%B %-d, %Y" }}</time>
         <a href="{{ post.url | prepend: site.baseurl }}" class="learnmore">Learn More</a>

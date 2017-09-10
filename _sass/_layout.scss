@@ -1,6 +1,33 @@
+
+.homeTop{
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../assets/tennisLeap.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+	div{
+		position: relative;
+		left: 57%;
+		top: 27%;
+		h1{
+			line-height:120%;
+			margin-bottom: 10%;
+			&:before{
+			  content: "";
+			  position: absolute;
+			  height: 5px;
+			  border-top: 5px solid $primary;
+			  top: 3%;
+				left: -75%;
+			  width: 200px;
+			}
+		}
+	}
+}
+
 .postholder{
 	padding: 4% 0;
 	.post-item{
+		margin-bottom: 4%;
 		a{
 			color: $secondary;
 			display: block;
@@ -23,5 +50,41 @@
 }
 
 /* ///////////// responsiveness ////////////// */
-
+// Extra small devices
+@media (min-width: 576px) and (max-width: 767px) {
+}
+// Mine xSmall devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+	.homeTop{
+		background-position: left center;
+		div {
+			left: 0;
+			h1{
+				&:before{
+					border-top:none;
+				}
+			}
+		}
+	}
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+	.homeTop{
+		background-position: center center;
+		div{
+			position: relative;
+			left: 57%;
+			top: 27%;
+		}
+	}
+}
 /* ///////////// responsiveness end////////////// */

@@ -1,10 +1,23 @@
 /* Variables and mixins will go here.*/
-$primary: #ed2027;
-$secondary: #353736;
+$primary: #ed2027; //red
+$secondary: #353736; //black grey
 $tertiary: #ffffff;
+@font-face {
+   font-family: Antonio;
+   src: url(../assets/fonts/Antonio-Regular.ttf);
+}
+@font-face {
+   font-family: Antonio;
+   src: url(../assets/fonts/Antonio-bold.ttf);
+   font-weight: 600;
+}
 $font-style-primary: 'Antonio', sans-serif;
 $font-style-secondary: 'Lora', serif;
 h1 {
+  color: $tertiary;
+  font-family: $font-style-primary;
+  font-size: 3em;
+  text-transform: uppercase;
 }
 h2 {
 }
@@ -23,4 +36,31 @@ h6 {
 p{
   font-family: $font-style-secondary;
   font-size: 1.25em;
+}
+header{
+    border-bottom: 1px solid $secondary;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+section{
+  padding-right: 15px;
+  padding-left: 15px;
+  &:first-of-type{
+    padding-top: 60px;
+  }
+}
+.btnLink{
+  background-color: $primary;
+  color: $tertiary;
+  font-family: $font-style-primary;
+  font-size: 1.375em;
+  padding: 2% 8%;
+  text-transform: uppercase;
+  &:hover{
+    color: #000000;
+    text-decoration: none;
+  }
 }
