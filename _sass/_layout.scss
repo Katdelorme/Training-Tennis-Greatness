@@ -1,9 +1,23 @@
-
+/* ///////////// Navigation ////////////// */
+nav .navbar-nav a, .navbar-light .navbar-nav .nav-link{
+	color: $tertiary;
+	font-family: $font-style-primary;
+	font-size: 1.2rem;
+	&:hover{
+		color: $primary;
+		/*background-color: $primary;
+		padding-top: 0;
+		padding-bottom: 0;*/
+	}
+}
+/* ///////////// Navigation End ////////////// */
 .homeTop{
 	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../assets/tennisLeap.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   height: 100vh;
+	margin-right: 0;
+	margin-left: 0;
 	div{
 		position: relative;
 		left: 57%;
@@ -27,6 +41,7 @@
 .postholder{
 	padding: 4% 0;
 	.post-item{
+		align-self: flex-end;
 		margin-bottom: 4%;
 		a{
 			color: $secondary;
@@ -47,6 +62,78 @@
 			}
 		}
 	}
+}
+.borderbefore{
+	position: relative;
+	left: 13%;
+	h3{
+		padding-left: 15px;
+	&:before{
+		content: "";
+		position: absolute;
+		height: 5px;
+		border-top: 5px solid $primary;
+		top: 40%;
+		right: 100%;
+		width: 200px;
+
+		}
+	}
+}
+
+.borderafter{
+	position: relative;
+	h3{
+	&:before{
+		content: "";
+		position: absolute;
+		height: 5px;
+		border-top: 5px solid $primary;
+		top: 40%;
+		right: 43%;
+		width: 200px;
+
+		}
+	}
+}
+.homepglevel{
+  background-image: url("../assets/clayCourt.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: 100% auto;
+	color: $tertiary;
+	height: 80vh;
+	margin: 0;
+	padding: 0;
+}
+.homepglevelL{
+	background: rgba(53,55,54,0.9);
+	@extend .basepadding;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	div:last-child{
+		width: 85%;
+	}
+	p{
+		margin-top: 5%;
+		width: 70%;
+	}
+	a{
+		color: $tertiary;
+		display: flex;
+		font-family: $font-style-primary;
+		font-size: 1.2em;
+		justify-content: flex-end;
+		text-transform: uppercase;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}
+.homepglevelR{
+	align-self: flex-end;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 /* ///////////// responsiveness ////////////// */
