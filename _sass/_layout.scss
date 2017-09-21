@@ -135,6 +135,38 @@ nav .navbar-nav a, .navbar-light .navbar-nav .nav-link{
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
+.meetburd{
+	color: $tertiary;
+	height: 80vh;
+	margin: 0;
+	padding: 0;
+	div{
+		&:first-of-type{
+			background-image: url("../assets/burd.jpg");
+		  background-position: top center;
+		  background-repeat: no-repeat;
+			background-size: cover;
+		}
+		&:last-of-type{
+			background: #353736;
+			padding-right: 80px;
+		  padding-left: 80px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			h3{
+				border-bottom: 5px solid $primary;
+				padding-bottom: 10px;
+				margin-bottom:  20px;
+			}
+		}
+	}
+}
+
+/* ///////////// Footer ////////////// */
+	footer{
+		@extend .basepadding;
+	}
+/* ///////////// Footer End ////////////// */
 
 /* ///////////// responsiveness ////////////// */
 // Extra small devices
@@ -142,6 +174,12 @@ nav .navbar-nav a, .navbar-light .navbar-nav .nav-link{
 }
 // Mine xSmall devices (portrait phones, less than 576px)
 @media (max-width: 575px) {
+	.heightauto{
+		height: auto !important;
+	}
+	.sameheight{
+		height: auto;
+	}
 	.homeTop{
 		background-position: left center;
 		div {
@@ -152,6 +190,35 @@ nav .navbar-nav a, .navbar-light .navbar-nav .nav-link{
 				}
 			}
 		}
+	}
+	.postholder .post-item {
+    margin-bottom: 30px;
+	}
+	.borderbefore{
+		left: 0;
+		h3{
+			padding-left: 0;
+			&:before {
+				border-top:none;
+			}
+		}
+	}
+	.borderafter h3::before {border-top:none;}
+	.homepglevel {
+		background-size: cover;
+		height: auto;
+	}
+	.homepglevelL div:last-child {
+    width: 100%;
+	}
+	.homepglevelL p {
+    width: 100%;
+	}
+	.meetburd{height: auto;}
+	.meetburd div:first-of-type{height: 60vh;}
+	.meetburd div:last-of-type {
+    padding-right: 30px;
+    padding-left: 30px;
 	}
 }
 // Small devices (landscape phones, 576px and up)
