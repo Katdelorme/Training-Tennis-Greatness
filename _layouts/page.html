@@ -1,7 +1,16 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  {% include header.html %}
 
-  <h2>{{ page.title }}</h2>
+  <section class="eventsTop nospace">
+    <div class="row nospace">
+    <h2>{{ page.title }}</h2>
+    </div>
+  </section>
 
-  {{ content }}
+  <section>
+    {{ content }}
+  </section>
+
+
+{% include footer.html %}

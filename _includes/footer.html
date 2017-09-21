@@ -1,6 +1,17 @@
 
     <footer>
-        <p>Hand coded and designed with <span>&hearts;</span> by Katherine Delorme</p>
+      <div class="row">
+        <div class="col-md-7 col-12 footerContent">
+          <p>Burd Tennis, Inc.</p>
+          <p>Hand coded and designed with <span>&hearts;</span> by Katherine Delorme</p>
+        </div>
+        <div class="col-md-5 col-12 footerLink text-right">
+          <a href="/index/">Home</a>
+          {% for page in site.pages %} {% if page.title %}
+				  <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+				  {% endif %} {% endfor %}
+        </div>
+      </div>
     </footer>
   </div><!--container-fluid-->
 

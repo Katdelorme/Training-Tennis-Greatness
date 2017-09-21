@@ -20,6 +20,8 @@ h1 {
   text-transform: uppercase;
 }
 h2 {
+  font-family: $font-style-primary;
+  font-size: 2.5em;
 }
 h3 {
   font-size: 2.25em;
@@ -60,7 +62,7 @@ section{
   padding-top: 30px;
   padding-bottom: 25px;
   &:first-of-type{
-    padding-top: 60px;
+    /*padding-top: 60px;*/ //So content shows below menu
   }
 }
 .sameheight{
