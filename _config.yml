@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "/tennis" # /tennis     http://katherinedelorme.com/tennis the subpath of your site, e.g. /blog
 url: "http://localhost:4000/" # the base hostname & protocol for your site, e.g. http://example.com http://localhost:4000
-permalink: /:year/:title/
+permalink: /:year/:title/index.html
 twitter_username: jekyllrb
 github_username:  jekyll
 
