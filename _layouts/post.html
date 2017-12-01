@@ -7,7 +7,7 @@
     <h2>{{ page.title }}</h2>
     </div>
     <div class="row eventTime nospace">
-      <time>{{ page.date | date: "%B %-d, %Y"}}</time>
+      <time>{{ page.eventdate | date: "%B %-d, %Y, %A"}}</time>
       <time>{{ page.eventtime }}</time>
     </div>
   </section>
@@ -20,6 +20,10 @@
           </div>
       </article>
     </main>
+  </section>
+
+  <section class="eventContent">
+    {% include social-sharer.html %}
   </section>
 
   <section class="eventContent">

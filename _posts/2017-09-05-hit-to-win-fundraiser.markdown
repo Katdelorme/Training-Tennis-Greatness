@@ -3,12 +3,20 @@ layout: post
 title:  "Hit to Win Fundraiser"
 date:   2017-09-05 09:33:31 -0400
 eventdate:   2017-10-13 09:33:31 -0400
-categories: jekyll update
+categories: Fundraiser
 fbsocialmediaimg: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
 twsocialmediaimg: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
 banner: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu nunc eget turpis pulvinar luctus. Quisque blandit efficitur ex, lobortis placerat neque viverra et. Curabitur vehicula erat velit, eu hendrerit elit interdum id. Curabitur facilisis finibus urna vitae rhoncus. Duis vitae magna risus. Donec vestibulum ornare rhoncus. Vivamus euismod in neque ac porta. Curabitur gravida, quam sit amet blandit tincidunt, justo enim aliquet ante, ut euismod ex odio id est. Vivamus suscipit, turpis at ultricies blandit, nisi lectus placerat sem, sit amet rhoncus enim augue mattis mi. Proin at lobortis erat, quis posuere urna. Aenean ut dui semper, accumsan purus at, vehicula libero. Mauris ultricies mi eu ligula sodales, non sodales sem congue. Praesent eu metus ullamcorper urna tempus dictum vel vitae ante. Vestibulum at justo orci. Fusce et nisl ultrices, luctus odio ac, lobortis mauris. Morbi turpis dolor, fringilla in tellus in, tincidunt aliquam ex.
+A unique fundraiser style has entered the courts of the Miami Shores Country Club. The "Hit to Win Fundraiser".
 
-Fusce vel tristique dolor. Nulla facilisi. Aenean scelerisque dictum nulla vel faucibus. Morbi elementum neque non ante fringilla, vitae malesuada magna vestibulum. Sed non felis aliquet, vestibulum eros sit amet, elementum lacus. Morbi lobortis est eu fermentum rutrum. Vivamus ex ipsum, suscipit aliquet sagittis id, pulvinar a magna. In ultrices, odio a ullamcorper venenatis, dolor nisl fringilla lacus, quis pulvinar sem ante nec velit. Ut rhoncus augue ac dui tincidunt tempor. Sed felis orci, egestas at laoreet quis, consectetur nec orci. Etiam ut lacus nunc. Morbi pharetra nec leo nec ultricies. Nulla facilisi. Mauris nec feugiat erat, non commodo nulla. Nunc ut ex at massa rhoncus lobortis non id odio. Etiam porttitor bibendum luctus.
+Profits for this fundraiser will go towards the Children's Hospital of Miami. Aiding kids who for various circumstances are unable to enjoy an active lifestyle.
+
+This fundraiser is split into two sections. The main event will be a stamina challenge where candidates volly the ball until the last man is standing. Anyone can join and find sponsors for the time they last. For the second event participants can pay for there chance to win the raffles for 4 Disney passes with 1-night hotel stay. In addition to a carnival like style day event. The third is a wager for naming the last player standing. Guess raffle tickets will be sold at $2 a ticket.
+
+Taking place at the Miami Shores Country Club tennis courts. Located in close proximity to the Miami Shores Recreation Department. Our fundraisers has built a reputation for being a pillar to the community. This year will be our first collaboration with The Children's Hospital of Miami.
+
+Advance ticket carnival can be purchase October 1 - 13. Adults $15 and kids (ages 4 - 12) $10. Tickets at the door will be Adult $20 and kids (ages 4 - 12) remaining at $10. Babies 3 and below are granted free admission.
+
+Join us at this years exciting fundraiser event.

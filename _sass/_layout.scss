@@ -194,6 +194,14 @@ nav .navbar-nav a, .navbar-light .navbar-nav .nav-link{
 }
 //align-self: flex-end;
 //align-items: flex-end;
+.postShare a{
+	color: $secondary;
+	margin-right: 2%;
+	text-decoration: none;
+}
+.postShare a:hover{
+	color: $primary;
+}
 /* ///////////// Events End ////////////// */
 
 /* ///////////// Footer ////////////// */

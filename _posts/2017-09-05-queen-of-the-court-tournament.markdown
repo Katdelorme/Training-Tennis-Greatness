@@ -3,14 +3,14 @@ layout: post
 title:  "Queen of the Court Tournament"
 date:   2017-09-05 09:31:31 -0400
 eventdate:   2017-06-18 09:31:31 -0400
-categories: jekyll update
+categories: tournament
 fbsocialmediaimg: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
 twsocialmediaimg: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
 banner: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu nunc eget turpis pulvinar luctus. Quisque blandit efficitur ex, lobortis placerat neque viverra et. Curabitur vehicula erat velit, eu hendrerit elit interdum id. Curabitur facilisis finibus urna vitae rhoncus. Duis vitae magna risus. Donec vestibulum ornare rhoncus. Vivamus euismod in neque ac porta. Curabitur gravida, quam sit amet blandit tincidunt, justo enim aliquet ante, ut euismod ex odio id est. Vivamus suscipit, turpis at ultricies blandit, nisi lectus placerat sem, sit amet rhoncus enim augue mattis mi. Proin at lobortis erat, quis posuere urna. Aenean ut dui semper, accumsan purus at, vehicula libero. Mauris ultricies mi eu ligula sodales, non sodales sem congue. Praesent eu metus ullamcorper urna tempus dictum vel vitae ante. Vestibulum at justo orci. Fusce et nisl ultrices, luctus odio ac, lobortis mauris. Morbi turpis dolor, fringilla in tellus in, tincidunt aliquam ex.
+Join us for our 3rd annual Queen of the Court Tournament. Taking place in the sunny courts of the Miami, Florida.
 
-Fusce vel tristique dolor. Nulla facilisi. Aenean scelerisque dictum nulla vel faucibus. Morbi elementum neque non ante fringilla, vitae malesuada magna vestibulum. Sed non felis aliquet, vestibulum eros sit amet, elementum lacus. Morbi lobortis est eu fermentum rutrum. Vivamus ex ipsum, suscipit aliquet sagittis id, pulvinar a magna. In ultrices, odio a ullamcorper venenatis, dolor nisl fringilla lacus, quis pulvinar sem ante nec velit. Ut rhoncus augue ac dui tincidunt tempor. Sed felis orci, egestas at laoreet quis, consectetur nec orci. Etiam ut lacus nunc. Morbi pharetra nec leo nec ultricies. Nulla facilisi. Mauris nec feugiat erat, non commodo nulla. Nunc ut ex at massa rhoncus lobortis non id odio. Etiam porttitor bibendum luctus.
+The Queen of the Court presented by Miami Shores Country Club is located at the courts of the Miami Shores Country Club in close proximity to the Miami Shores Recreation Department. The tournament has built a reputation for delivering world-class tournament styles to young up coming tennis athletes. With accolades such as last year's title winner going off to win more predominate tournaments. Main draw play for 2017 will run for one day one June 18th.
 
-Aenean venenatis nunc sed blandit imperdiet. Curabitur mauris est, lacinia nec viverra sed, hendrerit sed nibh. Maecenas sit amet feugiat metus, non dignissim nisi. Integer efficitur purus vel neque cursus luctus. Proin maximus nibh nec odio tempus, non dignissim erat pharetra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras auctor ex massa, varius sodales tellus fermentum maximus. Donec ac turpis ultricies, rhoncus mi congue, faucibus odio. Integer mattis auctor posuere. Curabitur condimentum nisl libero, quis venenatis arcu imperdiet et. Aliquam quis odio luctus, posuere dolor non, interdum metus. Duis aliquet erat at est elementum, eget tincidunt sapien tempus.
+Registrations open July 15 and run until 9am June 18th on tournament grounds. There will be two division classes: Minis and Juniors. Minis runs from ages 4 - 7. Juniors start at 8 to 11. Join us at this years exciting tournament event.
