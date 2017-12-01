@@ -4,6 +4,7 @@ title:  "Hit to Win Fundraiser"
 date:   2017-09-05 09:33:31 -0400
 eventdate:   2017-10-13 09:33:31 -0400
 categories: Fundraiser
+summary: A unique fundraiser style has entered the courts of the Miami Shores Country Club.
 fbsocialmediaimg: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
 twsocialmediaimg: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
 banner: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg

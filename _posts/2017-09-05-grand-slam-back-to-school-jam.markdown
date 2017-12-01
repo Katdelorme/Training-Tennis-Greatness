@@ -5,6 +5,7 @@ date:   2017-09-05 09:32:31 -0400
 eventdate:   2017-08-11 09:32:31 -0400
 eventtime: 10am - 3pm
 categories: Fundraiser, Tournament
+summary: Help us sponsor 50 kids for the school year with our Grand Slam, Back to School Jam.
 fbsocialmediaimg: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
 twsocialmediaimg: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
 banner: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
