@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  {% include header.html %}
+
+  <section class="eventsTop nospace">
+    <div class="row nospace">
+    <h2>{{ page.title }}</h2>
+    </div>
+  </section>
+
+  <section>
+    {{ content }}
+  </section>
+
+  <section>
+    <div class="row postholder">
+      <div class="col-md-7 col-12">
+        Giant picture here run across to next side
+      </div>
+      <div class="col-md-5 col-12">
+        <h3 class="borderBelow">Stay Connected</h3>
+        <i class="fa fa-facebook"></i> Facebook<br/>
+        <i class="fa fa-envelope"></i> Newsletter Updates
+      </div>
+    </div>
+  </section>
+
+  <section class="contactInfo">
+    <div class="d-flex justify-content-between">
+      <div>
+        10000 Biscayne Blvd, Miami Shores, FL 33138
+      </div>
+      <div>
+        (305) 795-2360
+      </div>
+    </div>
+  </section>
+
+
+{% include footer.html %}

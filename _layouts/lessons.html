@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  {% include header.html %}
+
+  <section class="eventsTop nospace">
+    <div class="row nospace">
+    <h2>{{ page.title }}</h2>
+    </div>
+  </section>
+
+  <section>
+    {{ content }}
+  </section>
+
+  <section>
+    <div class="row postholder">
+      <div class="col-md-4 col-12 post-item">
+        one
+      </div>
+      <div class="col-md-8 col-12 post-item">
+        two
+      </div>
+    </div>
+  </section>
+
+
+{% include footer.html %}

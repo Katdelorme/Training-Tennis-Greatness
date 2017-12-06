@@ -163,6 +163,18 @@ nav .navbar-nav a, .navbar-light .navbar-nav .nav-link{
 	}
 }
 
+/* ///////////// About ////////////// */
+.aboutShortFacts div{
+	border-right: $secondary solid 1px;
+	&:last-of-type{
+		border-right: none;
+	}
+	p{
+		padding-top: 3%;
+	}
+}
+/* ///////////// About End ////////////// */
+
 /* ///////////// Events ////////////// */
 .eventsTop{
 	background: $secondary;
@@ -208,8 +220,21 @@ nav .navbar-nav a, .navbar-light .navbar-nav .nav-link{
 }
 /* ///////////// Events End ////////////// */
 
+/* ///////////// Contact ////////////// */
+.borderBelow{
+	border-bottom: 5px solid $primary;
+	padding-bottom: 10px;
+	margin-bottom:  20px;
+}
+.contactInfo{
+	background: $secondary;
+	color:  $tertiary;
+}
+/* ///////////// Contact End ////////////// */
+
 /* ///////////// Footer ////////////// */
 	footer{
+		padding-top: 2%;
 		@extend .basepadding;
 		.footerLink a{
 			color: $secondary;

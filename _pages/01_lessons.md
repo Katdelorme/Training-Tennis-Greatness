@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: lessons
 title: Lessons
 permalink: /lessons/index.html
 categories: jekyll
@@ -7,5 +7,3 @@ shortblurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare u
 fbsocialmediaimg: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
 twsocialmediaimg: http://blog.katherinedelorme.com/assets/jekyllBuild.jpg
 ---
-
-Contact content goes here.
