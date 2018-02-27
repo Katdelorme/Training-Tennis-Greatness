@@ -242,6 +242,17 @@ input[type="submit"]:visited{color: $tertiary; cursor: pointer;}
 input[type="submit"]:active{color: $secondary; cursor: pointer;}
 input[type="submit"]:focus{color: $secondary; cursor: pointer;}
 
+/* ///////////// Lessons  ////////////// */
+.lessonCard{
+	height: 400px;
+	margin: 1%;
+	width: 40%;
+	-webkit-box-shadow: 7px 14px 20px -4px rgba(53,55,54,0.4);
+	-moz-box-shadow: 7px 14px 20px -4px rgba(53,55,54,0.4);
+	box-shadow: 7px 14px 20px -4px rgba(53,55,54,0.4);
+}
+/* ///////////// Lessons End ////////////// */
+
 /* ///////////// About ////////////// */
 .aboutShortFacts div{
 	border-right: $secondary solid 1px;
