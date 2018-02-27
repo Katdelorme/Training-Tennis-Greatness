@@ -162,6 +162,85 @@ nav .navbar-nav a, .navbar-light .navbar-nav .nav-link{
 		}
 	}
 }
+.contact{
+	background: #353736;
+}
+.contactSection{
+	color: $tertiary;
+	div{
+		&:first-of-type{
+			padding-left: 80px;
+			padding-top: 100px;
+			padding-bottom: 30px;
+			p{
+				font-family: $font-style-primary;
+				font-size: 1.875em;
+				text-transform: uppercase;
+				a{
+					color: $tertiary;
+					text-decoration: underline;
+					&:hover{
+						color: $primary;
+					}
+				}
+			}
+		}
+		&:last-of-type{
+		  padding-left: 80px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			h3{
+				border-bottom: 5px solid $primary;
+				padding-bottom: 10px;
+				margin-bottom:  20px;
+			}
+		}
+	}
+}
+form{
+	font-family: $font-style-primary;
+	width: 80%;
+}
+input[type="text"], input[type="email"] {
+	background: $tertiary;
+	border: none;
+	box-sizing: border-box;
+	height: 70px;
+	line-height: normal;
+	margin: 0 0 1% 0;
+	text-indent: 2%;
+	text-transform: uppercase;
+	width:100%;
+}
+input:focus, textarea:focus {
+	background: #e8e8e8;
+	border: none;
+}
+textarea {
+	border: none;
+	box-sizing: border-box;
+	line-height: normal;
+	margin: 0 0 1% 0;
+	padding: 1%;
+	text-indent: 2%;
+	text-transform: uppercase;
+	width:100%;
+}
+input[type="submit"], input[type="button"], input[type="reset"] {
+	background-color:$primary;
+	border: none;
+	color: $tertiary;
+	float: right;
+	font-size: 1em;
+	height: 40px;
+	padding: 2% 5%;
+	margin: 0 0 1% 0;
+	width: 200px;
+}
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover{color: $secondary; cursor: pointer;}
+input[type="submit"]:visited{color: $tertiary; cursor: pointer;}
+input[type="submit"]:active{color: $secondary; cursor: pointer;}
+input[type="submit"]:focus{color: $secondary; cursor: pointer;}
 
 /* ///////////// About ////////////// */
 .aboutShortFacts div{
