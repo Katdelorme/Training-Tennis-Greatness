@@ -1,4 +1,4 @@
-# Training-Tennis-Greatness
+# Training Tennis Greatness
 A Jekyll and Bootstrap site build. Created for a Tennis Program in Miami.
 
 ![design of training tennis greatness](https://static.dribbble.com/users/633772/screenshots/3757477/tennishomepage.png "design of training tennis greatness")
